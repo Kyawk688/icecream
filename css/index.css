@@ -1,6 +1,7 @@
+/* code below is same for all pages */
 :root{
     --pink:rgba(255, 216, 223, 0.974);
-    --greenyellow:greenyellow;
+    --greenyellow:rgb(119, 197, 2);
     --strongpink:rgb(226, 82, 106);
 }
 body{
@@ -12,30 +13,34 @@ body{
     height: 130px;
 }
 .first-row-border{
-    width: 60%;
+    width: 80%;
     height: 100%;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 .first-row img{
     float: left;
-    padding-top: 30px;
+    margin-left: -25px;
 }
 .first-row nav{
     float: right;
     display: block;
-    padding-top: 40px;
+    margin-left: 400px;
+    
 }
 .first-row a{
-    padding: 0px 20px;
+    padding: 0px 30px;
     text-decoration: none;
     color: black;
 }
-.first-row a:hover{
+ .first-row a:hover{
     content:"";
     color: var(--greenyellow);
 }
+/* code above is same for all pages */
 .second-row-border{
-    width: 60%;
+    width: 80%;
     min-height: 500px;
     margin: auto;
 }
@@ -48,7 +53,7 @@ body{
     min-height: 260px;
 }
 .third-row-border{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 .third-row-border h2{
@@ -69,14 +74,15 @@ body{
     min-height: 200px;
 }
 .fourth-row-border{
-    width: 60%;
+    width: 80%;
     height: 100%;
     margin: auto;
     padding-top: 10px;
 }
 .fourth-row .icon{
-    width: 25%;
+    width: 20%;
     float: left;
+    margin-right: 50px;
     text-align: center;
     padding-top: 40px;
 }
@@ -93,6 +99,7 @@ body{
     height: 70%;
     margin: auto;
     color: white;
+
 }
 .footer img{
     width: 15%;
